@@ -2,7 +2,7 @@ name: Context testing
 on:
   push:
     branches:
-      - push-workflows
+      - main
     tags:
       - 1.**
 jobs:
