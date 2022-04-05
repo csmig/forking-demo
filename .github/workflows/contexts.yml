@@ -3,10 +3,10 @@ on:
   push:
     branches:
       - main
-    # tags:
-    #   - 1.**
+    tags:
+      - 1.**
   release:
-    type: [published]
+    types: [published]
 jobs:
   dump_contexts_to_log:
     runs-on: ubuntu-latest
